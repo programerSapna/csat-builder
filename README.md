@@ -6,7 +6,7 @@ A simplified **Customer Satisfaction (CSAT) Campaign Builder** — AppVersal Fro
 
 ## Live Demo
 
-🔗 [https://csat-builder-lovat.vercel.app](https://csat-builder-lovat.vercel.app)
+🔗 [https://csat-builder-app.vercel.app](https://csat-builder-app.vercel.app)
 
 ---
 
@@ -38,24 +38,35 @@ Requirements: **Node.js >= 18**
 ---
 
 ## Folder Structure
-
-```
 src/
+
 ├── context/
+
 │   └── CSATContext.jsx        # Central state (Content + Styling)
+
 ├── pages/
+
 │   ├── ContentPage.jsx        # Initial / Feedback / Thank You config
+
 │   └── StylingPage.jsx        # Colors, typography, shape, button, ratings
+
 ├── components/
+
 │   ├── ui/
+
 │   │   ├── Controls.jsx       # TextField, ToggleSwitch, ColorField, SliderField
+
 │   │   └── Icons.jsx          # Custom SVG icons (no library)
+
 │   └── preview/
+
 │       └── MobilePreview.jsx  # Phone frame + 3 live screens
+
 ├── App.jsx                    # Root layout (responsive)
+
 ├── main.jsx                   # Entry point
+
 └── index.css                  # CSS variables + resets
-```
 
 ---
 
@@ -86,4 +97,4 @@ src/
 
 ## Deployment Link
 
-🔗 [https://csat-builder-lovat.vercel.app](https://csat-builder-lovat.vercel.app)
+🔗 [https://csat-builder-app.vercel.app](https://csat-builder-app.vercel.app)
